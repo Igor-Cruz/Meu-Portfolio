@@ -26,6 +26,7 @@ a{
 a:hover{
     background-color: var(--color-hover);
     color: var(--color-letra);
+    
 }
 
 .header{
@@ -62,11 +63,27 @@ a:hover{
 .imgHome{
     
     width: 150px;
-    border-radius: 50%;
+    border-radius: 100px;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    padding-top: 20px;
+    padding-top: 50px;
+}
+
+h1{
+    font-family: sans-serif;
+    font-size: 35px;
+}
+
+h2{
+    font-family: 'Crimson Text', serif;
+    font-size: 28px;
+}
+
+h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+
 }
 
 .divSobre{
@@ -76,7 +93,7 @@ a:hover{
     /* background-attachment: fixed; */
     width: 100vw;
     height: 140vh;
-    
+    font-family: font-family: 'Amatic SC', cursive;;
 }
 
 .divPortfolio{
@@ -85,7 +102,8 @@ a:hover{
     height: 100vh;
 }
 
-h1,h2,h3{
+.titleHome{
     text-align: center;
     color: var(--color-letra);
+    padding: 10px;
 }
